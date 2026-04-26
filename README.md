@@ -1,6 +1,6 @@
-# 🧠 Neuro Brain
+# 🧠 NeuroBrain AI SOC
 
-A personal AI neural network platform for number prediction, object recognition, and text processing.
+A real-time, neural-network-powered Security Operations Center (SOC) for advanced threat detection, featuring NIDS, WAF, and automated DFIR.
 
 ## Quick Start
 
