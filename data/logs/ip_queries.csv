@@ -1,0 +1,501 @@
+Country,ISP,ThreatScore
+UK,Local ISP,0
+North Korea,Google,52
+UK,Amazon,13
+UK,Amazon,4
+Germany,DigitalOcean,47
+Germany,Local ISP,11
+Brazil,Linode,44
+China,Amazon,47
+Brazil,Amazon,6
+Canada,Linode,47
+Brazil,Anonymous VPN,68
+Germany,Hetzner,48
+USA,Hetzner,49
+USA,Anonymous VPN,64
+North Korea,DigitalOcean,74
+UK,Amazon,9
+Russia,Linode,88
+North Korea,Google,59
+North Korea,Amazon,52
+UK,Local ISP,12
+UK,Google,10
+Brazil,Local ISP,19
+Brazil,Hetzner,35
+UK,Hetzner,45
+UK,Local ISP,10
+China,Local ISP,42
+North Korea,Anonymous VPN,100
+Brazil,Google,19
+Russia,Local ISP,48
+USA,Linode,46
+Russia,Linode,84
+UK,Hetzner,48
+China,Google,49
+Brazil,Anonymous VPN,56
+USA,DigitalOcean,41
+China,DigitalOcean,81
+Canada,Amazon,16
+Russia,Linode,75
+North Korea,Local ISP,42
+North Korea,Google,46
+Canada,Linode,35
+China,Hetzner,81
+Russia,DigitalOcean,71
+USA,Google,3
+Russia,Google,58
+Brazil,Local ISP,15
+China,Hetzner,77
+China,Anonymous VPN,100
+USA,Google,11
+UK,Amazon,17
+China,DigitalOcean,81
+North Korea,DigitalOcean,83
+UK,Linode,43
+China,Linode,70
+Brazil,Local ISP,12
+China,Anonymous VPN,100
+China,Google,45
+Brazil,Local ISP,1
+USA,Anonymous VPN,62
+Germany,Amazon,4
+UK,Linode,37
+USA,Local ISP,17
+North Korea,Amazon,47
+Brazil,Local ISP,14
+North Korea,Google,54
+Germany,Amazon,18
+USA,Google,7
+Russia,Linode,75
+Canada,Anonymous VPN,56
+USA,Amazon,17
+North Korea,Google,49
+Russia,Google,55
+North Korea,Anonymous VPN,100
+USA,Anonymous VPN,55
+USA,Google,18
+North Korea,DigitalOcean,71
+Russia,Amazon,52
+China,Amazon,40
+Germany,Amazon,1
+Canada,Amazon,12
+UK,Hetzner,43
+China,Linode,84
+China,Anonymous VPN,96
+China,Local ISP,57
+China,Linode,71
+Canada,Anonymous VPN,68
+UK,DigitalOcean,37
+Germany,DigitalOcean,38
+Germany,DigitalOcean,45
+Russia,Linode,88
+USA,DigitalOcean,38
+Brazil,Hetzner,33
+UK,Anonymous VPN,62
+UK,DigitalOcean,46
+China,Linode,74
+Brazil,Amazon,6
+Canada,Linode,48
+Brazil,Amazon,2
+Russia,Anonymous VPN,100
+Brazil,Amazon,19
+UK,Hetzner,45
+North Korea,Local ISP,54
+Russia,Linode,72
+Canada,Hetzner,36
+Brazil,Amazon,7
+China,Local ISP,56
+Brazil,Anonymous VPN,56
+North Korea,Linode,81
+North Korea,Google,43
+Canada,Google,9
+Brazil,DigitalOcean,42
+China,DigitalOcean,74
+Germany,Hetzner,33
+USA,Amazon,6
+Brazil,Hetzner,30
+North Korea,Local ISP,40
+Germany,Google,12
+Canada,Hetzner,42
+USA,Amazon,8
+Germany,Amazon,1
+UK,Linode,45
+UK,Hetzner,46
+North Korea,DigitalOcean,76
+Brazil,DigitalOcean,46
+Germany,Hetzner,41
+Brazil,Linode,43
+Canada,Amazon,7
+Germany,Amazon,12
+Russia,DigitalOcean,71
+Germany,DigitalOcean,39
+Brazil,Hetzner,38
+North Korea,Google,43
+Russia,DigitalOcean,78
+China,Google,48
+Canada,Linode,32
+Germany,Local ISP,16
+USA,DigitalOcean,34
+Brazil,Anonymous VPN,60
+North Korea,Anonymous VPN,100
+Russia,Anonymous VPN,100
+Brazil,Anonymous VPN,51
+USA,DigitalOcean,40
+North Korea,Google,58
+North Korea,Hetzner,77
+USA,Local ISP,9
+North Korea,Linode,82
+Brazil,Google,3
+Brazil,Google,17
+North Korea,Google,57
+Russia,DigitalOcean,82
+USA,Local ISP,14
+North Korea,Linode,72
+Germany,Local ISP,5
+USA,Hetzner,48
+Brazil,Google,10
+Russia,DigitalOcean,89
+Canada,Google,1
+Germany,DigitalOcean,42
+Brazil,Anonymous VPN,56
+North Korea,Anonymous VPN,100
+Canada,Amazon,9
+USA,Anonymous VPN,51
+China,Amazon,42
+Brazil,Anonymous VPN,65
+Brazil,DigitalOcean,48
+North Korea,Hetzner,70
+Russia,Google,54
+UK,Anonymous VPN,63
+Brazil,DigitalOcean,48
+Germany,Anonymous VPN,57
+UK,Amazon,16
+China,Hetzner,72
+Canada,DigitalOcean,34
+Canada,Local ISP,10
+Germany,Amazon,12
+North Korea,Anonymous VPN,90
+Russia,Local ISP,50
+China,Local ISP,55
+UK,Amazon,2
+Germany,DigitalOcean,49
+Canada,Hetzner,46
+Russia,Local ISP,58
+Canada,Local ISP,16
+UK,Hetzner,47
+USA,DigitalOcean,45
+USA,Amazon,9
+North Korea,Amazon,54
+China,DigitalOcean,80
+Brazil,Amazon,17
+Canada,DigitalOcean,46
+Russia,Local ISP,57
+USA,Hetzner,35
+USA,Anonymous VPN,57
+Germany,Amazon,7
+China,DigitalOcean,77
+Germany,Hetzner,34
+China,Hetzner,89
+China,Hetzner,85
+Canada,Linode,39
+Canada,Amazon,13
+China,Hetzner,70
+Canada,Hetzner,46
+Canada,Hetzner,45
+Germany,Anonymous VPN,64
+Germany,DigitalOcean,38
+Germany,Linode,40
+Canada,Amazon,13
+USA,DigitalOcean,34
+Brazil,DigitalOcean,38
+Brazil,Google,19
+USA,Google,7
+USA,Amazon,14
+China,Anonymous VPN,91
+Canada,Anonymous VPN,55
+Russia,Google,50
+Canada,Amazon,11
+Russia,Local ISP,51
+China,Amazon,51
+Canada,Google,18
+USA,Amazon,0
+Russia,Anonymous VPN,100
+Russia,Hetzner,88
+Brazil,Amazon,18
+USA,Amazon,5
+UK,DigitalOcean,48
+North Korea,DigitalOcean,81
+USA,Anonymous VPN,61
+Germany,Linode,31
+Germany,Linode,39
+Brazil,Hetzner,43
+Canada,Google,13
+Brazil,Anonymous VPN,58
+Brazil,Google,13
+Germany,Anonymous VPN,53
+UK,Google,8
+China,Anonymous VPN,100
+Brazil,Local ISP,3
+Russia,Google,43
+Germany,Google,3
+USA,Local ISP,12
+Canada,Anonymous VPN,52
+Russia,DigitalOcean,89
+USA,Amazon,13
+Canada,Amazon,2
+Germany,Anonymous VPN,57
+North Korea,Anonymous VPN,100
+North Korea,Local ISP,47
+Canada,DigitalOcean,36
+Germany,Hetzner,40
+UK,Hetzner,32
+China,DigitalOcean,80
+Germany,Google,16
+China,Linode,71
+UK,Hetzner,41
+North Korea,Linode,73
+Germany,Google,7
+USA,Local ISP,8
+Brazil,Anonymous VPN,63
+Canada,DigitalOcean,31
+USA,Anonymous VPN,57
+Germany,Amazon,1
+Brazil,Hetzner,30
+Brazil,Local ISP,10
+China,Local ISP,57
+USA,Hetzner,49
+Russia,Anonymous VPN,98
+Germany,DigitalOcean,32
+UK,Google,5
+Canada,Anonymous VPN,53
+Germany,Google,11
+UK,Local ISP,18
+Germany,Linode,37
+North Korea,Hetzner,74
+China,Linode,70
+North Korea,Amazon,40
+UK,Hetzner,43
+North Korea,DigitalOcean,88
+USA,Hetzner,43
+North Korea,Anonymous VPN,100
+China,Linode,88
+UK,Local ISP,19
+Germany,Hetzner,32
+UK,Hetzner,47
+Russia,Hetzner,77
+Russia,DigitalOcean,79
+USA,Google,15
+UK,Hetzner,47
+China,Anonymous VPN,100
+Russia,Anonymous VPN,100
+USA,Hetzner,43
+USA,Google,0
+Germany,DigitalOcean,32
+Canada,Hetzner,40
+Russia,DigitalOcean,72
+North Korea,Linode,79
+Russia,Linode,81
+North Korea,DigitalOcean,72
+North Korea,Local ISP,40
+UK,Google,1
+North Korea,Google,54
+Germany,Linode,31
+USA,Google,8
+North Korea,DigitalOcean,70
+China,DigitalOcean,84
+Canada,Linode,45
+USA,Google,13
+Canada,Local ISP,10
+China,Hetzner,79
+USA,Local ISP,15
+Canada,Local ISP,14
+UK,Hetzner,48
+Russia,DigitalOcean,88
+Russia,Hetzner,80
+Germany,Amazon,16
+North Korea,Linode,81
+Russia,DigitalOcean,88
+Germany,Google,2
+USA,Google,4
+Germany,Anonymous VPN,64
+Russia,Local ISP,49
+China,Hetzner,82
+UK,Hetzner,43
+Canada,Linode,45
+Russia,Anonymous VPN,100
+UK,DigitalOcean,46
+Germany,Amazon,1
+China,Google,41
+China,DigitalOcean,88
+Brazil,Linode,46
+UK,Linode,41
+Germany,Linode,38
+Brazil,Google,8
+Russia,Hetzner,76
+Canada,Google,18
+Germany,Amazon,7
+China,Anonymous VPN,91
+USA,Anonymous VPN,57
+Brazil,Local ISP,18
+North Korea,Anonymous VPN,98
+USA,Linode,46
+UK,Google,0
+Brazil,Google,18
+Russia,Hetzner,82
+North Korea,Anonymous VPN,100
+UK,Linode,38
+Germany,Linode,43
+China,Local ISP,47
+China,DigitalOcean,84
+Russia,DigitalOcean,74
+North Korea,Google,56
+Brazil,Linode,36
+Canada,Google,12
+UK,Local ISP,11
+Canada,Anonymous VPN,50
+North Korea,Local ISP,46
+China,Anonymous VPN,100
+China,Linode,74
+North Korea,Linode,73
+China,Local ISP,40
+UK,Linode,48
+China,Hetzner,70
+Germany,DigitalOcean,39
+Russia,Local ISP,59
+UK,Amazon,2
+Russia,Amazon,57
+North Korea,Hetzner,79
+Brazil,DigitalOcean,38
+North Korea,Anonymous VPN,100
+Canada,DigitalOcean,47
+UK,Google,16
+Brazil,Anonymous VPN,67
+Brazil,Amazon,5
+UK,Local ISP,15
+UK,Linode,33
+North Korea,Local ISP,49
+Germany,Linode,30
+Russia,Hetzner,72
+UK,Anonymous VPN,64
+Brazil,Anonymous VPN,68
+Brazil,Hetzner,48
+Canada,Anonymous VPN,59
+USA,Local ISP,12
+Russia,Local ISP,55
+UK,Local ISP,11
+North Korea,Anonymous VPN,100
+China,DigitalOcean,84
+USA,Hetzner,43
+USA,DigitalOcean,45
+Canada,Amazon,8
+Canada,Anonymous VPN,65
+China,Linode,85
+Brazil,DigitalOcean,32
+North Korea,Amazon,44
+Brazil,Amazon,4
+North Korea,Google,49
+Russia,DigitalOcean,70
+Germany,Local ISP,7
+Brazil,Google,3
+China,Linode,85
+North Korea,Anonymous VPN,100
+Brazil,Anonymous VPN,68
+China,DigitalOcean,74
+Brazil,DigitalOcean,48
+Russia,Linode,74
+North Korea,Hetzner,71
+USA,Amazon,14
+Brazil,DigitalOcean,44
+Brazil,Linode,35
+USA,Local ISP,13
+Russia,Google,41
+China,Amazon,59
+USA,Anonymous VPN,53
+USA,Linode,46
+UK,Hetzner,40
+Canada,Google,0
+Germany,Linode,30
+Germany,Local ISP,16
+Canada,Linode,31
+Canada,Hetzner,49
+Germany,Hetzner,35
+North Korea,Local ISP,59
+China,Hetzner,88
+North Korea,Anonymous VPN,91
+UK,Local ISP,19
+UK,Amazon,2
+North Korea,Anonymous VPN,100
+Russia,Local ISP,44
+Germany,Hetzner,40
+China,Amazon,58
+Canada,Anonymous VPN,57
+China,Anonymous VPN,100
+Brazil,Local ISP,19
+Brazil,Hetzner,43
+USA,Hetzner,33
+Germany,Anonymous VPN,64
+North Korea,Linode,75
+Canada,Linode,43
+North Korea,Hetzner,89
+North Korea,Hetzner,87
+Brazil,DigitalOcean,42
+Brazil,Amazon,11
+North Korea,Google,48
+USA,Linode,36
+Brazil,Google,7
+Russia,Hetzner,81
+Brazil,Linode,43
+Canada,Hetzner,47
+USA,Linode,34
+North Korea,DigitalOcean,78
+USA,Linode,36
+China,DigitalOcean,78
+Canada,Google,5
+Germany,Anonymous VPN,52
+North Korea,Amazon,57
+USA,Hetzner,47
+Canada,Linode,38
+Canada,Hetzner,47
+USA,Google,18
+USA,Linode,31
+UK,Amazon,5
+North Korea,Local ISP,44
+Russia,Amazon,59
+North Korea,Anonymous VPN,100
+North Korea,Local ISP,53
+China,Google,50
+Russia,Linode,75
+USA,Local ISP,14
+Russia,Anonymous VPN,100
+Canada,Local ISP,7
+Germany,Amazon,6
+Germany,Amazon,13
+Germany,Amazon,4
+Brazil,Linode,34
+Germany,Hetzner,44
+USA,DigitalOcean,45
+Germany,Hetzner,49
+UK,Google,5
+Russia,DigitalOcean,74
+USA,Linode,45
+Germany,Anonymous VPN,56
+Germany,Linode,35
+Brazil,Anonymous VPN,67
+Germany,DigitalOcean,42
+Canada,DigitalOcean,42
+Germany,Anonymous VPN,67
+USA,Hetzner,40
+Russia,Linode,81
+Canada,Hetzner,47
+China,Amazon,47
+UK,DigitalOcean,31
+Germany,Hetzner,37
+Brazil,Local ISP,3
+Brazil,Hetzner,43
+Brazil,DigitalOcean,40
+China,Amazon,52
+Brazil,Linode,45
+Germany,Amazon,17
+Germany,Linode,39
+Canada,Hetzner,40
+UK,Google,17

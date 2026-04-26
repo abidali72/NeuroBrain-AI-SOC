@@ -1,0 +1,287 @@
+/* 
+  🌌 Neuro Brain - Chat UI Design System
+  Theme: OLED Deep Space / Glassmorphism
+*/
+
+:root {
+    --bg-deep: #050505;
+    --bg-glass: rgba(20, 20, 20, 0.7);
+    --accent-blue: #00f2ff;
+    --accent-red: #ff3131;
+    --accent-gold: #ffd700;
+    --text-main: #e0e0e0;
+    --text-dim: #999999;
+    --border-glass: rgba(255, 255, 255, 0.1);
+    --font-chat: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-deep);
+    color: var(--text-main);
+    font-family: var(--font-chat);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+/* ─── SIDEBAR ─── */
+aside {
+    width: 280px;
+    background: var(--bg-deep);
+    border-right: 1px solid var(--border-glass);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.logo-container {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-container h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(90deg, var(--accent-blue), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-card {
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 12px;
+    transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-blue);
+}
+
+.stat-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* ─── MAIN CHAT AREA ─── */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: radial-gradient(circle at top right, #111, transparent);
+}
+
+#chat-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 40px 20%;
+    scroll-behavior: smooth;
+}
+
+#chat-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat-container::-webkit-scrollbar-thumb {
+    background: var(--border-glass);
+    border-radius: 10px;
+}
+
+/* ─── MESSAGE STYLES ─── */
+.message {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 35px;
+    animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.ai-avatar {
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.3);
+}
+
+.user-avatar {
+    background: #333;
+}
+
+.content {
+    line-height: 1.6;
+    font-size: 1rem;
+    max-width: 90%;
+}
+
+.ai-content {
+    color: var(--text-main);
+}
+
+.user-content {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* ─── TACTICAL CARDS ─── */
+.threat-card {
+    background: rgba(255, 49, 49, 0.05);
+    border: 1px solid rgba(255, 49, 49, 0.3);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.threat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--accent-red);
+}
+
+.threat-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.threat-title {
+    color: var(--accent-red);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.severity-tag {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: var(--accent-red);
+    color: #fff;
+    font-weight: 700;
+}
+
+.threat-details {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-dim);
+}
+
+/* ─── INPUT AREA ─── */
+.input-panel {
+    padding: 20px 20% 40px 20%;
+    background: linear-gradient(0deg, var(--bg-deep) 40%, transparent);
+}
+
+.input-container {
+    background: var(--bg-glass);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border-glass);
+    border-radius: 16px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: border-color 0.2s ease;
+}
+
+.input-container:focus-within {
+    border-color: var(--accent-blue);
+}
+
+input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 0;
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--text-dim);
+}
+
+button#send-btn {
+    background: #fff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+button#send-btn:hover {
+    transform: scale(1.05);
+}
+
+button#send-btn:active {
+    transform: scale(0.95);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    #chat-container, .input-panel {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    aside {
+        display: none;
+    }
+    #chat-container, .input-panel {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
